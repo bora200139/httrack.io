@@ -1,0 +1,97 @@
+#slides {
+	display: none
+	}
+
+#slidesjs-navigation {
+	margin-top:3px;
+	}
+	
+/* Show active item in the pagination */
+.slidesjs-pagination .active {
+	color:red;
+	}
+
+.slidesjs-previous {
+	margin-top: -200px;
+	margin-left: 650px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	z-index: 200;
+	background-image: url(../img/menu_prev.png);
+	background-repeat: no-repeat;	
+	}
+
+.slidesjs-next {
+	margin-top: -200px;
+	margin-left: 700px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	z-index: 200;
+	background-image: url(../img/menu_next.png);
+	background-repeat: no-repeat;
+    }
+	
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+    }
+	
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+    }
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../img/pagination.html);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+    }
+
+.slidesjs-pagination li a.active,
+
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+    }
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+    }
+
+#slides a:link,
+#slides a:visited {
+    color: #999
+    }
+
+#slides a:hover,
+#slides a:active {
+    color: #FFF
+    }
+
+.navbar {
+    overflow: hidden
+    }
+	
+.numbering {
+    margin-top: -222px;
+	margin-left: 750px;
+	position: absolute;
+	height: 50px;
+	width: 200px;
+	z-index: 210;
+    }
+	
+.slidesjs-slide-number {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	color: #FFF;
+	text-align: left;
+}

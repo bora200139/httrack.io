@@ -1,0 +1,25 @@
+.sidebar_right {
+	height: 660px;
+	width: 225px;
+	z-index: 130;
+	position: absolute;
+	visibility: inherit;
+	right: auto;
+	margin-left: 799px;
+	background-image: url(../img/sidebar_right_bckgAMB.png);
+	background-repeat: repeat;
+	color: #CCC;
+	color: #999;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 8px;
+	white-space: normal;
+	text-indent: 30px;
+	bottom: auto;
+	vertical-align: bottom;
+	background-position: top;
+    }
